@@ -55,7 +55,6 @@ dotfiles:   github.com/seaavey/dotfiles
   <br/><br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=seaavey&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"/>
   <br/><br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=seaavey&theme=onedark&no-frame=true&no-bg=true&row=2&column=4" alt="GitHub Trophies"/>
 </div>
 
 ### 📈 Contribution Graph
