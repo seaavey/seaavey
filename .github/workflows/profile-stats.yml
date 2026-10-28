@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/profile-stats.yml
+      - scripts/**
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -19,18 +20,25 @@ jobs:
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117
+          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=0a0a0a&title_color=f7f7f5&text_color=f7f7f5&icon_color=969692&border_color=2a2a2a&hide_border=false&rank_icon=default
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117
+          options: username=${{ github.repository_owner }}&layout=compact&bg_color=0a0a0a&title_color=f7f7f5&text_color=f7f7f5&border_color=2a2a2a&hide_border=false
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test scripts/profile.test.mjs
+      - run: node scripts/profile.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add profile/*.svg README.md
           git commit -m "Update profile stats" || exit 0
           git push

@@ -1,79 +1,113 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=42b883&center=true&width=500&lines=Hi+there,+I'm+Seaavey+👋;Full+Stack+Website+Developer;Building+Designer;Always+building+something+cool" alt="Typing SVG" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/banner-dark.svg" />
+  <img src="./profile/banner-light.svg" alt="( SEAVX ) — Muhammad Adriansyah, full stack website developer and building designer" width="100%" />
+</picture>
 
-  <br/>
+“A full stack website developer and building designer” based in Bandung, Indonesia. Architecting self-hosted Rust & Go LLM gateways, terminal AI agents, high-concurrency automation frameworks, and Swiss brutalist digital interfaces.
 
-  <a href="https://seaavey.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://github.com/seaavey/dotfiles">
-    <img src="https://img.shields.io/badge/dotfiles-%23121011.svg?style=for-the-badge&logo=linux&logoColor=white" alt="Dotfiles"/>
-  </a>
-</div>
+[GITHUB // @SEAAVEY ↗](https://github.com/seaavey) &nbsp;//&nbsp; [WEB PORTAL ↗](https://www.seaavey.com) &nbsp;//&nbsp; [DOTFILES ↗](https://github.com/seaavey/dotfiles) &nbsp;//&nbsp; [DISPATCH ↗](mailto:owner@seaavey.com)
 
-<br/>
+## 01 // PUBLIC REPOSITORIES
 
-### 🧑‍💻 About Me
+<!-- AUTO:REPOS — regenerated from the GitHub API by scripts/profile.mjs -->
+| ID   | REPOSITORY                                              | LANG       | STATE       | YEAR |
+| :--- | :------------------------------------------------------ | :--------- | :---------- | :--- |
+| A—01 | [SRouter ↗](https://github.com/seaavey/SRouter)         | RUST       | ★ 24 · ⑂ 13 | 2026 |
+| A—02 | [seaavey-bot ↗](https://github.com/seaavey/seaavey-bot) | TYPESCRIPT | ★ 10 · ⑂ 3  | 2026 |
+| A—03 | [finance ↗](https://github.com/seaavey/finance)         | VUE        | ★ 5 · ⑂ 1   | 2026 |
+| A—04 | [Seavx ↗](https://github.com/seaavey/Seavx)             | RUST       | ★ 1 · ⑂ 1   | 2026 |
+| A—05 | [SeavxBot ↗](https://github.com/seaavey/SeavxBot)       | TYPESCRIPT | ★ 0 · ⑂ 1   | 2026 |
+| A—06 | [dotfiles ↗](https://github.com/seaavey/dotfiles)       | SHELL      | ★ 0 · ⑂ 0   | 2026 |
+| A—07 | [smcp ↗](https://github.com/seaavey/smcp)               | RUST       | ★ 0 · ⑂ 0   | 2026 |
+<!-- /AUTO:REPOS -->
 
-```yaml
-location:   Indonesia
-role:       Full Stack Developer & UI Designer
-focus:      Building clean, functional web experiences
-stack:      React · Next.js · Vue · Nuxt · TypeScript · Go
-editor:     zed
-shell:      zsh + hyprland + kitty
-dotfiles:   github.com/seaavey/dotfiles
-```
+## 02 // WORKSTATION SPEC
 
-### 🛠️ Tech Stack
+| PARAMETER     | VALUE                                                |
+| :------------ | :--------------------------------------------------- |
+| OS            | Arch Linux x86_64                                    |
+| WM            | Hyprland (Wayland)                                   |
+| SHELL         | Zsh + Kitty                                          |
+| EDITOR        | Zed / Minimal Code-OSS                               |
+| NETWORK       | DNS-over-TLS (1.1.1.1)                               |
+| PRIMARY STACK | React · Next.js · Vue · Nuxt · TypeScript · Go · Rust |
+| DOTFILES REPO | [github.com/seaavey/dotfiles ↗](https://github.com/seaavey/dotfiles) |
 
-<div align="center">
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D" alt="Vue.js"/>
-  <img src="https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82" alt="Nuxt"/>
-  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-  <br/>
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white" alt="Lua"/>
-  <img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Bun-%23000000.svg?style=for-the-badge&logo=bun&logoColor=white" alt="Bun"/>
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
-</div>
+## 03 // TECH MATRIX
 
-<br/>
+| ID   | MODULE      | CATEGORY      | ROLE                    |
+| :--- | :---------- | :------------ | :---------------------- |
+| C—01 | React       | FRONTEND      | UI COMPONENT LIBRARY    |
+| C—02 | Next.js     | FRONTEND      | REACT SSR FRAMEWORK     |
+| C—03 | Vue.js      | FRONTEND      | REACTIVE UI FRAMEWORK   |
+| C—04 | Nuxt        | FRONTEND      | VUE FULLSTACK SSR       |
+| C—05 | Vite        | FRONTEND      | NEXT-GEN BUNDLER        |
+| C—06 | TailwindCSS | FRONTEND      | UTILITY DESIGN SYSTEM   |
+| C—07 | TypeScript  | BACKEND / SYS | STRICT TYPE SYSTEM      |
+| C—08 | Go          | BACKEND / SYS | SAGENT & CONCURRENCY    |
+| C—09 | Rust        | BACKEND / SYS | SROUTER CORE SYSTEMS    |
+| C—10 | Bun         | BACKEND / SYS | FAST JS/TS RUNTIME      |
+| C—11 | Node.js     | BACKEND / SYS | EVENT-DRIVEN SERVER     |
+| C—12 | Supabase    | BACKEND / SYS | POSTGRES & REALTIME     |
+| C—13 | Lua         | BACKEND / SYS | EMBEDDED CONFIG SCRIPT  |
+| C—14 | Arch Linux  | LINUX / TOOLS | x86_64 OPERATING SYSTEM |
+| C—15 | Hyprland    | LINUX / TOOLS | WAYLAND COMPOSITOR      |
+| C—16 | Kitty       | LINUX / TOOLS | GPU TERMINAL EMULATOR   |
+| C—17 | Zed         | LINUX / TOOLS | HIGH-SPEED CODE EDITOR  |
+| C—18 | Zsh         | LINUX / TOOLS | INTERACTIVE UNIX SHELL  |
+| C—19 | Bash        | LINUX / TOOLS | POSIX AUTOMATION        |
+| C—20 | Git         | LINUX / TOOLS | DISTRIBUTED VCS         |
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Hyprland-1E1E2E?style=for-the-badge&logo=linux&logoColor=89b4fa" alt="Hyprland"/>
-  <img src="https://img.shields.io/badge/Kitty-1E1E2E?style=for-the-badge&logo=gnometerminal&logoColor=white" alt="Kitty"/>
-  <img src="https://img.shields.io/badge/Zed-0849C4?style=for-the-badge&logo=zedindustries&logoColor=white" alt="Zed"/>
-  <img src="https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=gnubash&logoColor=white" alt="Zsh"/>
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux"/>
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</div>
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="./profile/stats.svg" alt="GitHub Stats"/>
-  <img src="./profile/top-langs.svg" alt="Top Languages"/>
-  <br/><br/>
-  <img src="https://streak-stats.vercel.app?user=seaavey&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"/>
-  <br/><br/>
-</div>
-
-### 📈 Contribution Graph
+## 04 // SIGNAL TELEMETRY
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=seaavey&theme=react-dark&hide_border=true&bg_color=0D1117&area=true" alt="Activity Graph"/>
+  <img src="./profile/stats.svg" alt="GitHub stats: stars, commits, pull requests and issues" />
+  <img src="./profile/top-langs.svg" alt="Most used languages by repository" />
+  <br /><br />
+  <img src="https://streak-stats.vercel.app?user=seaavey&hide_border=true&border_radius=0&disable_animations=true&background=0A0A0A&border=2A2A2A&stroke=2A2A2A&ring=969692&fire=969692&currStreakNum=F7F7F5&sideNums=F7F7F5&currStreakLabel=969692&sideLabels=969692&dates=969692&text=F7F7F5" alt="Contribution streak" />
+  <br /><br />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=seaavey&hide_border=true&radius=0&area=true&bg_color=0A0A0A&color=525250&line=F7F7F5&point=F7F7F5&area_color=525250&title_color=F7F7F5&custom_title=ACTIVITY" alt="Contribution activity over the last year" />
 </div>
 
-<br/>
+## 05 // ENGINEERING LOG
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=seaavey&style=for-the-badge&color=42b883" alt="Profile Views"/>
-</div>
+| ID       | TIER      | TITLE               | SCOPE                                            |
+| :------- | :-------- | :------------------ | :----------------------------------------------- |
+| BADGE 01 | TIER x3   | PULL SHARK x3       | Merged high-impact PRs across open-source        |
+| BADGE 02 | CO-AUTHOR | PAIR EXTRAORDINAIRE | Collaborative architecture & co-authored commits |
+| BADGE 03 | &lt; 5 MIN | QUICKDRAW     | Rapid issue triage & immediate hotfix resolution  |
+| BADGE 04 | DIRECT    | YOLO                | Decisive production merges & rapid iteration     |
+| BADGE 05 | ★ 32+     | STARSTRUCK          | Community-starred repositories                   |
+
+| DATE    | ENTRY                            | STATE         |
+| :------ | :------------------------------- | :------------ |
+| 2026.01 | SRouter Multi-Provider Release   | ★ 23 · ⑂ 12   |
+| 2025.04 | SAgent Terminal AI Assistant     | GO · CLI AGENT |
+| 2025.02 | Hyprland & Baileys Ecosystem     | PULL SHARK x3 |
+| 2024.11 | seaavey-bot Framework v2         | ★ 10 · ⑂ 3    |
+| 2024.06 | Arch Linux Dotfiles & Web Portal | PRODUCTION    |
+
+## 06 // DIRECT DISPATCH
+
+| CHANNEL | TARGET                                                               |
+| :------ | :------------------------------------------------------------------- |
+| 01      | [owner@seaavey.com ↗](mailto:owner@seaavey.com)                      |
+| 02      | [github.com/seaavey ↗](https://github.com/seaavey)                   |
+| 03      | [seaavey.com ↗](https://www.seaavey.com)                             |
+| 04      | [github.com/seaavey/dotfiles ↗](https://github.com/seaavey/dotfiles) |
+
+| PARAMETER       | VALUE                           |
+| :-------------- | :------------------------------ |
+| AVAILABILITY    | OPEN FOR SELECTED PROJECTS      |
+| RESPONSE WINDOW | 24—48 HOURS                     |
+| SERVICES        | WEB · LLM GATEWAYS · UI SYSTEMS |
+| LOCATION        | BANDUNG, WEST JAVA, ID          |
+| TIMEZONE        | UTC/GMT +7                      |
+
+---
+
+<sub>DEVELOPER & DESIGNER // MUHAMMAD ADRIANSYAH · GITHUB @SEAAVEY · BANDUNG, ID (6.9175° S, 107.6191° E) · © 2026 ( SEAVX )</sub>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=seaavey&style=flat-square&color=525250&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
