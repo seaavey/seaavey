@@ -10,14 +10,13 @@ const repo = (over) => ({
   language: 'Rust',
   stargazers_count: 0,
   forks_count: 0,
-  created_at: '2026-01-01T00:00:00Z',
   pushed_at: '2026-02-01T00:00:00Z',
   ...over,
 });
 
 test('replaceRegion swaps only the marked block', () => {
-  const src = 'a\n<!-- AUTO:REPOS — x -->\nold\n<!-- /AUTO:REPOS -->\nb';
-  assert.equal(replaceRegion(src, 'REPOS', 'new'), 'a\n<!-- AUTO:REPOS — x -->\nnew\n<!-- /AUTO:REPOS -->\nb');
+  const src = 'a\n<!-- AUTO:REPOS: x -->\nold\n<!-- /AUTO:REPOS -->\nb';
+  assert.equal(replaceRegion(src, 'REPOS', 'new'), 'a\n<!-- AUTO:REPOS: x -->\nnew\n<!-- /AUTO:REPOS -->\nb');
 });
 
 test('replaceRegion throws when the markers are gone', () => {
@@ -42,13 +41,13 @@ test('renderReposTable drops forks and the profile repo, orders by stars', () =>
   );
   const rows = table.split('\n').slice(2);
   assert.equal(rows.length, 2);
-  assert.match(rows[0], /A—01 \| \[alpha ↗\]\(https:\/\/github\.com\/seaavey\/x\) \| —/);
-  assert.match(rows[0], /★ 9 · ⑂ 0/);
-  assert.match(rows[1], /A—02 \| \[zeta ↗\]/);
-  assert.ok(!table.includes('forked') && !table.includes('[seaavey ↗]'));
+  assert.match(rows[0], /\[alpha\]/);
+  assert.match(rows[0], /\|\s+none\s+\|/);
+  assert.match(rows[1], /\[zeta\]/);
+  assert.ok(!table.includes('forked') && !table.includes('[seaavey]'));
 });
 
-test('renderReposTable collapses a single-year span', () => {
-  const table = renderReposTable([repo({})], 'seaavey');
-  assert.match(table.split('\n')[2], /\| 2026 \|$/);
+test('renderReposTable prints the API push date as is', () => {
+  const row = renderReposTable([repo({})], 'seaavey').split('\n')[2];
+  assert.match(row, /\| 2026-02-01 \|$/);
 });

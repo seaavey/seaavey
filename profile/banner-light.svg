@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="bannerTitle bannerDesc">
-  <title id="bannerTitle">( SEAVX ) — Muhammad Adriansyah, full stack website developer &amp; building designer</title>
-  <desc id="bannerDesc">Monochrome brutalist banner: paper canvas, 1px hairline frame, technical telemetry strips, and a blueprint schematic panel.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">SEAAVEY on GitHub</title>
+  <desc id="bannerDesc">A FULL STACK WEBSITE DEVELOPER AND BUILDING DESIGNER. 9 PUBLIC REPOS · 78 FOLLOWERS · 40 STARS. BANDUNG, WEST JAVA, INDONESIA.</desc>
 
   <style>
     .bg { fill: #f7f7f5; }
@@ -10,76 +10,25 @@
     .mono {
       font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
       font-size: 11px;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.06em;
     }
-    .micro { font-size: 10px; }
-    .bold { font-weight: 700; }
-    .hero {
+    .word {
       font-family: "Plus Jakarta Sans", Inter, "Helvetica Neue", Arial, sans-serif;
-      font-size: 82px;
+      font-size: 120px;
       font-weight: 800;
-      letter-spacing: -3.6px;
+      letter-spacing: -5px;
     }
-    .gridfill { fill: url(#blueprint); }
-    .ring { fill: none; stroke: #0a0a0a; stroke-width: 1; opacity: 0.28; }
-    .axis { fill: none; stroke: #0a0a0a; stroke-width: 1; opacity: 0.35; stroke-dasharray: 2 5; }
   </style>
 
-  <defs>
-    <pattern id="blueprint" width="22" height="22" patternUnits="userSpaceOnUse">
-      <path d="M22 0V22H0" fill="none" stroke="#808080" stroke-opacity="0.13" stroke-width="1" />
-    </pattern>
-  </defs>
+  <rect class="bg" x="0" y="0" width="1200" height="210" />
+  <rect class="hair" x="0.5" y="0.5" width="1199" height="209" />
 
-  <rect class="bg" x="0" y="0" width="1200" height="300" />
-  <rect class="hair" x="0.5" y="0.5" width="1199" height="299" />
+  <text class="mono dim" x="24" y="28">A FULL STACK WEBSITE DEVELOPER AND BUILDING DESIGNER</text>
+  <line class="hair" x1="0" y1="40" x2="1200" y2="40" />
 
-  <!-- FIG 00.A — blueprint schematic panel -->
-  <rect class="gridfill" x="760" y="36" width="440" height="240" />
-  <g>
-    <circle class="ring" cx="980" cy="156" r="20" />
-    <circle class="ring" cx="980" cy="156" r="30" />
-    <circle class="ring" cx="980" cy="156" r="40" />
-    <circle class="ring" cx="980" cy="156" r="50" />
-    <circle class="ring" cx="980" cy="156" r="60" />
-    <circle class="ring" cx="980" cy="156" r="70" />
-    <circle class="ring" cx="980" cy="156" r="80" />
-    <circle class="ring" cx="980" cy="156" r="90" />
-    <circle class="ring" cx="980" cy="156" r="100" />
-    <circle class="ring" cx="980" cy="156" r="110" />
-    <line class="axis" x1="776" y1="156" x2="1184" y2="156" />
-    <line class="axis" x1="980" y1="52" x2="980" y2="260" />
-    <circle class="fg" cx="980" cy="156" r="3" />
-  </g>
+  <text class="word fg" x="20" y="134">SEAAVEY</text>
 
-  <!-- Structural rules -->
-  <line class="hair" x1="0" y1="36" x2="1200" y2="36" />
-  <line class="hair" x1="760" y1="36" x2="760" y2="276" />
-  <line class="hair" x1="0" y1="240" x2="760" y2="240" />
-  <line class="hair" x1="0" y1="276" x2="1200" y2="276" />
-
-  <!-- Top strip -->
-  <text class="mono fg" x="20" y="24">[ SECTION 00 // PROFILE MANIFEST ]</text>
-  <text class="mono dim" x="1180" y="24" text-anchor="end">@SEAAVEY</text>
-
-  <!-- Studio badge -->
-  <rect class="hair" x="20" y="52" width="180" height="22" />
-  <text class="mono micro dim" x="30" y="67">STUDIO //</text>
-  <text class="mono bold fg" x="100" y="67">( SEAVX )</text>
-
-  <!-- Wordmark -->
-  <text class="hero fg" x="20" y="150">MUHAMMAD</text>
-  <text class="hero fg" x="20" y="224">ADRIANSYAH</text>
-
-  <!-- Telemetry -->
-  <text class="mono micro dim" x="20" y="260">+ DISCIPLINE // FULL STACK WEB &amp; BUILDING / SYSTEMS DESIGN</text>
-  <text class="mono micro dim" x="740" y="260" text-anchor="end">[ COORDS: 6.9175° S, 107.6191° E ]</text>
-
-  <!-- Bottom strip -->
-  <text class="mono micro fg" x="20" y="294">9 PUBLIC REPOS · 78 FOLLOWERS · 40 STARS</text>
-  <text class="mono micro dim" x="1180" y="294" text-anchor="end">BANDUNG, ID (UTC/GMT +7)</text>
-
-  <!-- Panel captions -->
-  <text class="mono micro dim" x="776" y="56">FIG 00.A — SCHEMATIC</text>
-  <text class="mono micro dim" x="1184" y="256" text-anchor="end">SCALE 1:1 // SVG</text>
+  <line class="hair" x1="0" y1="156" x2="1200" y2="156" />
+  <text class="mono fg" x="24" y="184">9 PUBLIC REPOS · 78 FOLLOWERS · 40 STARS</text>
+  <text class="mono dim" x="1176" y="184" text-anchor="end">BANDUNG, WEST JAVA, INDONESIA</text>
 </svg>
