@@ -21,6 +21,48 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 | [smcp](https://github.com/seaavey/smcp)               | Rust       | 0     | 0     | 2026-09-14 |
 <!-- /AUTO:REPOS -->
 
+## Languages
+
+<!-- AUTO:LANGUAGES: byte share across every repo, from the GitHub languages API -->
+| LANGUAGE   | SHARE | BYTES     |
+| :--------- | :---- | :-------- |
+| Rust       | 51.0% | 3,032,145 |
+| TypeScript | 32.9% | 1,953,932 |
+| Vue        | 11.9% | 708,006   |
+| CSS        | 1.8%  | 108,570   |
+| JavaScript | 1.0%  | 59,076    |
+| PLpgSQL    | 0.5%  | 29,091    |
+| Shell      | 0.4%  | 26,056    |
+| Python     | 0.2%  | 10,774    |
+<!-- /AUTO:LANGUAGES -->
+
+## Frameworks
+
+Declared in each repository's `package.json` and `Cargo.toml`.
+
+<!-- AUTO:FRAMEWORKS: matched against the dependencies in each repo manifest -->
+| FRAMEWORK       | REPOS | USED IN               |
+| :-------------- | :---- | :-------------------- |
+| Tokio           | 3     | SRouter, Seavx, smcp  |
+| Baileys         | 2     | SeavxBot, seaavey-bot |
+| shadcn          | 2     | SRouter, finance      |
+| TailwindCSS     | 2     | SRouter, finance      |
+| TanStack Query  | 2     | SRouter, finance      |
+| Axum            | 1     | SRouter               |
+| genai           | 1     | Seavx                 |
+| Motion          | 1     | SRouter               |
+| Radix UI        | 1     | SRouter               |
+| Ratatui         | 1     | Seavx                 |
+| React           | 1     | SRouter               |
+| Reka UI         | 1     | finance               |
+| rmcp            | 1     | smcp                  |
+| SQLx            | 1     | SRouter               |
+| Supabase        | 1     | finance               |
+| TanStack Router | 1     | SRouter               |
+| TanStack Table  | 1     | finance               |
+| Vue             | 1     | finance               |
+<!-- /AUTO:FRAMEWORKS -->
+
 ## Setup
 
 Arch Linux with the Hyprland compositor, Kitty as the terminal, Zed to edit, Zsh for scripting.
@@ -38,7 +80,6 @@ Arch Linux with the Hyprland compositor, Kitty as the terminal, Zed to edit, Zsh
 
 <div align="center">
   <img src="./profile/stats.svg" alt="GitHub stats: stars, commits, pull requests and issues" />
-  <img src="./profile/top-langs.svg" alt="Languages used across my repositories" />
   <br /><br />
   <img src="https://streak-stats.vercel.app?user=seaavey&hide_border=true&border_radius=0&disable_animations=true&background=0A0A0A&border=2A2A2A&stroke=2A2A2A&ring=969692&fire=969692&currStreakNum=F7F7F5&sideNums=F7F7F5&currStreakLabel=969692&sideLabels=969692&dates=969692&text=F7F7F5" alt="Contribution streak" />
   <br /><br />

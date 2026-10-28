@@ -1,7 +1,15 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
-import { renderReposTable, replaceRegion } from './profile.mjs';
+import {
+  aggregateLanguages,
+  detectFrameworks,
+  parseCargoDeps,
+  parsePackageDeps,
+  renderLanguagesTable,
+  renderReposTable,
+  replaceRegion,
+} from './profile.mjs';
 
 const repo = (over) => ({
   name: 'x',
@@ -50,4 +58,48 @@ test('renderReposTable drops forks and the profile repo, orders by stars', () =>
 test('renderReposTable prints the API push date as is', () => {
   const row = renderReposTable([repo({})], 'seaavey').split('\n')[2];
   assert.match(row, /\| 2026-02-01 \|$/);
+});
+
+test('parsePackageDeps reads dependencies, not devDependencies', () => {
+  const deps = parsePackageDeps('{"dependencies":{"vue":"1"},"devDependencies":{"vitest":"2"}}');
+  assert.deepEqual(deps, ['vue']);
+});
+
+test('parseCargoDeps reads the dependencies section only', () => {
+  const toml = [
+    '[package]',
+    'name = "x"',
+    '[dependencies]',
+    'axum = "0.8"',
+    'serde = { version = "1", features = ["derive"] }',
+    '[dev-dependencies]',
+    'criterion = "0.5"',
+    '[dependencies.reqwest]',
+    'version = "0.12"',
+  ].join('\n');
+  assert.deepEqual(parseCargoDeps(toml), ['axum', 'serde', 'reqwest']);
+});
+
+test('aggregateLanguages sums bytes across repos and ranks them', () => {
+  const [first, second] = aggregateLanguages([{ Rust: 300, Shell: 100 }, { Rust: 600 }]);
+  assert.equal(first.lang, 'Rust');
+  assert.equal(first.bytes, 900);
+  assert.equal(first.share, 90);
+  assert.equal(second.share, 10);
+});
+
+test('detectFrameworks matches scoped packages and sorts by repo count', () => {
+  const found = detectFrameworks([
+    { name: 'a', deps: ['@radix-ui/react-dialog', 'vue'] },
+    { name: 'b', deps: ['vue'] },
+    { name: 'c', deps: ['serde'] },
+  ]);
+  assert.deepEqual(found[0], { name: 'Vue', repos: ['a', 'b'] });
+  assert.deepEqual(found[1], { name: 'Radix UI', repos: ['a'] });
+  assert.equal(found.length, 2);
+});
+
+test('renderLanguagesTable caps the table at eight rows', () => {
+  const rows = Array.from({ length: 12 }, (_, i) => ({ lang: `L${i}`, bytes: 100 - i, share: 1 }));
+  assert.equal(renderLanguagesTable(rows).split('\n').length, 10);
 });

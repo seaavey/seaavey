@@ -23,12 +23,6 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&bg_color=0a0a0a&title_color=f7f7f5&text_color=f7f7f5&icon_color=969692&border_color=2a2a2a&hide_border=false&rank_icon=default
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&bg_color=0a0a0a&title_color=f7f7f5&text_color=f7f7f5&border_color=2a2a2a&hide_border=false
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
