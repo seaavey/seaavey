@@ -12,10 +12,10 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 <!-- AUTO:REPOS: generated from the GitHub API by scripts/profile.mjs -->
 | REPOSITORY                                            | LANGUAGE   | STARS | FORKS | LAST PUSH  |
 | :---------------------------------------------------- | :--------- | :---- | :---- | :--------- |
-| [SRouter](https://github.com/seaavey/SRouter)         | Rust       | 24    | 13    | 2026-10-27 |
+| [SRouter](https://github.com/seaavey/SRouter)         | Rust       | 24    | 13    | 2026-10-29 |
 | [seaavey-bot](https://github.com/seaavey/seaavey-bot) | TypeScript | 10    | 3     | 2026-07-18 |
 | [finance](https://github.com/seaavey/finance)         | Vue        | 5     | 1     | 2026-06-20 |
-| [Seavx](https://github.com/seaavey/Seavx)             | Rust       | 1     | 1     | 2026-10-28 |
+| [Seavx](https://github.com/seaavey/Seavx)             | Rust       | 1     | 1     | 2026-10-29 |
 | [SeavxBot](https://github.com/seaavey/SeavxBot)       | TypeScript | 0     | 1     | 2026-10-25 |
 | [dotfiles](https://github.com/seaavey/dotfiles)       | Shell      | 0     | 0     | 2026-10-14 |
 | [smcp](https://github.com/seaavey/smcp)               | Rust       | 0     | 0     | 2026-09-14 |
@@ -26,13 +26,13 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 <!-- AUTO:LANGUAGES: byte share across every repo, from the GitHub languages API -->
 | LANGUAGE   | SHARE | BYTES     |
 | :--------- | :---- | :-------- |
-| Rust       | 51.0% | 3,032,145 |
-| TypeScript | 32.9% | 1,953,932 |
-| Vue        | 11.9% | 708,006   |
+| Rust       | 51.8% | 3,140,473 |
+| TypeScript | 32.3% | 1,955,137 |
+| Vue        | 11.7% | 708,006   |
 | CSS        | 1.8%  | 108,570   |
-| JavaScript | 1.0%  | 59,076    |
+| JavaScript | 1.0%  | 61,353    |
 | PLpgSQL    | 0.5%  | 29,091    |
-| Shell      | 0.4%  | 26,056    |
+| Shell      | 0.4%  | 25,794    |
 | Python     | 0.2%  | 10,774    |
 <!-- /AUTO:LANGUAGES -->
 
