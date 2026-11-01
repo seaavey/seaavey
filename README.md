@@ -15,7 +15,7 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 | [SRouter](https://github.com/seaavey/SRouter)                   | Rust       | 24    | 13    | 2026-10-31 |
 | [seaavey-bot](https://github.com/seaavey/seaavey-bot)           | TypeScript | 10    | 3     | 2026-07-18 |
 | [finance](https://github.com/seaavey/finance)                   | Vue        | 5     | 1     | 2026-06-20 |
-| [Seavx](https://github.com/seaavey/Seavx)                       | Rust       | 1     | 1     | 2026-10-31 |
+| [Seavx](https://github.com/seaavey/Seavx)                       | Rust       | 1     | 1     | 2026-11-01 |
 | [thinking-orbs-rs](https://github.com/seaavey/thinking-orbs-rs) | Rust       | 0     | 0     | 2026-10-30 |
 | [SeavxBot](https://github.com/seaavey/SeavxBot)                 | TypeScript | 0     | 1     | 2026-10-25 |
 | [dotfiles](https://github.com/seaavey/dotfiles)                 | Shell      | 0     | 0     | 2026-10-14 |
@@ -27,14 +27,14 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 <!-- AUTO:LANGUAGES: byte share across every repo, from the GitHub languages API -->
 | LANGUAGE   | SHARE | BYTES     |
 | :--------- | :---- | :-------- |
-| Rust       | 57.5% | 3,943,215 |
-| TypeScript | 28.5% | 1,956,087 |
-| Vue        | 10.3% | 708,006   |
-| CSS        | 1.6%  | 108,570   |
-| JavaScript | 0.9%  | 61,353    |
+| Rust       | 60.8% | 4,527,627 |
+| TypeScript | 26.3% | 1,956,126 |
+| Vue        | 9.5%  | 708,006   |
+| CSS        | 1.5%  | 108,570   |
+| JavaScript | 0.8%  | 61,353    |
 | PLpgSQL    | 0.4%  | 29,091    |
-| Shell      | 0.4%  | 25,794    |
-| Python     | 0.2%  | 10,774    |
+| Shell      | 0.3%  | 25,794    |
+| Python     | 0.1%  | 10,774    |
 <!-- /AUTO:LANGUAGES -->
 
 ## Frameworks
