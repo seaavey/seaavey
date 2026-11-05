@@ -27,7 +27,7 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 <!-- AUTO:LANGUAGES: byte share across every repo, from the GitHub languages API -->
 | LANGUAGE   | SHARE | BYTES     |
 | :--------- | :---- | :-------- |
-| Rust       | 61.0% | 4,578,295 |
+| Rust       | 61.0% | 4,578,643 |
 | TypeScript | 26.1% | 1,956,126 |
 | Vue        | 9.4%  | 708,006   |
 | CSS        | 1.4%  | 108,570   |
