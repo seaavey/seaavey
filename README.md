@@ -12,7 +12,7 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 <!-- AUTO:REPOS: generated from the GitHub API by scripts/profile.mjs -->
 | REPOSITORY                                                      | LANGUAGE   | STARS | FORKS | LAST PUSH  |
 | :-------------------------------------------------------------- | :--------- | :---- | :---- | :--------- |
-| [SRouter](https://github.com/seaavey/SRouter)                   | Rust       | 26    | 13    | 2026-11-03 |
+| [SRouter](https://github.com/seaavey/SRouter)                   | Rust       | 26    | 14    | 2026-11-03 |
 | [seaavey-bot](https://github.com/seaavey/seaavey-bot)           | TypeScript | 10    | 3     | 2026-07-18 |
 | [finance](https://github.com/seaavey/finance)                   | Vue        | 5     | 1     | 2026-06-20 |
 | [Seavx](https://github.com/seaavey/Seavx)                       | Rust       | 1     | 1     | 2026-11-02 |
