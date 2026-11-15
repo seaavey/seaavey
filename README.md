@@ -13,10 +13,10 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 | REPOSITORY                                                      | LANGUAGE   | STARS | FORKS | LAST PUSH  |
 | :-------------------------------------------------------------- | :--------- | :---- | :---- | :--------- |
 | [SRouter](https://github.com/seaavey/SRouter)                   | Rust       | 28    | 14    | 2026-11-03 |
-| [seaavey-bot](https://github.com/seaavey/seaavey-bot)           | TypeScript | 10    | 3     | 2026-07-18 |
+| [seaavey-bot](https://github.com/seaavey/seaavey-bot)           | TypeScript | 11    | 4     | 2026-07-18 |
 | [finance](https://github.com/seaavey/finance)                   | Vue        | 5     | 1     | 2026-06-20 |
 | [Seavx](https://github.com/seaavey/Seavx)                       | Rust       | 1     | 1     | 2026-11-02 |
-| [SeavxRouter](https://github.com/seaavey/SeavxRouter)           | Go         | 0     | 0     | 2026-11-14 |
+| [SeavxRouter](https://github.com/seaavey/SeavxRouter)           | Go         | 0     | 0     | 2026-11-15 |
 | [thinking-orbs-rs](https://github.com/seaavey/thinking-orbs-rs) | Rust       | 0     | 0     | 2026-10-30 |
 | [SeavxBot](https://github.com/seaavey/SeavxBot)                 | TypeScript | 0     | 1     | 2026-10-25 |
 | [dotfiles](https://github.com/seaavey/dotfiles)                 | Shell      | 0     | 0     | 2026-10-14 |
@@ -31,7 +31,7 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 | Rust       | 55.9% | 4,578,643 |
 | TypeScript | 23.9% | 1,956,126 |
 | Vue        | 8.6%  | 708,006   |
-| Go         | 8.2%  | 674,566   |
+| Go         | 8.3%  | 676,756   |
 | CSS        | 1.3%  | 108,570   |
 | JavaScript | 0.8%  | 61,442    |
 | Shell      | 0.4%  | 34,621    |
