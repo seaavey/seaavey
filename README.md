@@ -16,7 +16,7 @@ I build web interfaces and the infrastructure behind them. Most of it is Rust, G
 | [seaavey-bot](https://github.com/seaavey/seaavey-bot)           | TypeScript | 11    | 4     | 2026-07-18 |
 | [finance](https://github.com/seaavey/finance)                   | Vue        | 5     | 1     | 2026-06-20 |
 | [Seavx](https://github.com/seaavey/Seavx)                       | Rust       | 1     | 1     | 2026-11-02 |
-| [SeavxRouter](https://github.com/seaavey/SeavxRouter)           | Go         | 0     | 1     | 2026-11-18 |
+| [SeavxRouter](https://github.com/seaavey/SeavxRouter)           | Go         | 0     | 1     | 2026-11-20 |
 | [thinking-orbs-rs](https://github.com/seaavey/thinking-orbs-rs) | Rust       | 0     | 0     | 2026-10-30 |
 | [SeavxBot](https://github.com/seaavey/SeavxBot)                 | TypeScript | 0     | 1     | 2026-10-25 |
 | [dotfiles](https://github.com/seaavey/dotfiles)                 | Shell      | 0     | 0     | 2026-10-14 |
